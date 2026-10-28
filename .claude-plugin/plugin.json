@@ -6,6 +6,7 @@
   "author": { "name": "moraesmattheus", "url": "https://github.com/moraesmattheus" },
   "homepage": "https://github.com/moraesmattheus/skill-advisor",
   "repository": "https://github.com/moraesmattheus/skill-advisor",
+  "privacyPolicyUrl": "https://github.com/moraesmattheus/skill-advisor#privacy-and-safety",
   "license": "MIT",
   "keywords": ["skills", "advisor", "tokens", "productivity", "i18n"]
 }
