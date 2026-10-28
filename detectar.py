@@ -158,7 +158,7 @@ def main():
     ids = ", ".join(r["id"] for r in ativas)
     if args.curto:
         top = principais(ativas, 5)
-        print(f"[skill-advisor] {t['projeto']}: {raiz.name} ({ids})")
+        print(f"[skill-compass] {t['projeto']}: {raiz.name} ({ids})")
         print(f"{t['sugestoes']}: " + ", ".join(s for s, _ in top))
         print(t["dica"])
         return

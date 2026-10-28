@@ -1,9 +1,9 @@
 ---
-name: skill-advisor
+name: skill-compass
 description: Reads the current project (files, dependencies, scripts) and automatically suggests the best skills, plugins and connectors, saying when each is worth using and what is missing. Always answers in the user's language, translating English skill descriptions. Use when opening a project, starting a new task, or when asked "which skill should I use", "suggest skills" or "is X worth using". / Lê o projeto atual e sugere automaticamente as melhores skills, no idioma do usuário.
 ---
 
-# skill-advisor
+# skill-compass
 
 Goal: the user should not have to know every skill. Read the project, recommend the right ones, flag what is missing, and spend as few tokens as possible.
 

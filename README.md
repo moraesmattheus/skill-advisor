@@ -1,4 +1,4 @@
-# skill-advisor
+# skill-compass
 
 > Português: [README.pt-BR.md](README.pt-BR.md)
 
@@ -15,14 +15,14 @@ A Claude Code skill that **reads your project and tells you which skills to use,
 ## Install
 As a plugin (recommended), in one step (Claude Code 2.1.275 or later):
 ```
-/plugin install skill-advisor --marketplace moraesmattheus/skill-advisor
+/plugin install skill-compass --marketplace moraesmattheus/skill-advisor
 ```
 Or in two steps from your shell:
 ```
 claude plugin marketplace add moraesmattheus/skill-advisor
-claude plugin install skill-advisor@skill-advisor
+claude plugin install skill-compass@skill-advisor
 ```
-Or as a standalone skill: copy `skills/skill-advisor/` to `~/.claude/skills/` and keep the repo next to it (the skill looks for `detectar.py` two folders above its `SKILL.md`).
+Or as a standalone skill: copy `skills/skill-compass/` to `~/.claude/skills/` and keep the repo next to it (the skill looks for `detectar.py` two folders above its `SKILL.md`).
 
 ## Use
 Say "suggest skills" inside a project, or run the detector yourself:

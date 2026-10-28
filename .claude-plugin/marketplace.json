@@ -1,10 +1,10 @@
 {
   "name": "skill-advisor",
-  "description": "Skill Advisor: suggests the best Claude skills for your project, in your language.",
+  "description": "Skill Compass: suggests the best Claude skills for your project, in your language.",
   "owner": { "name": "moraesmattheus" },
   "plugins": [
     {
-      "name": "skill-advisor",
+      "name": "skill-compass",
       "source": "./",
       "description": "Reads your project and suggests the best Claude skills, in your language, saying when each is worth using."
     }

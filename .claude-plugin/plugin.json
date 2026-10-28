@@ -1,6 +1,6 @@
 {
-  "name": "skill-advisor",
-  "displayName": "Skill Advisor",
+  "name": "skill-compass",
+  "displayName": "Skill Compass",
   "version": "0.1.0",
   "description": "Reads your project and suggests the best Claude skills, in your language, saying when each is worth using. Installs nothing without your yes.",
   "author": { "name": "moraesmattheus", "url": "https://github.com/moraesmattheus" },
