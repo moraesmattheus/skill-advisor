@@ -13,10 +13,14 @@ Skill do Claude Code que **lê o seu projeto e diz quais skills usar, quando val
 - **`uso.py`** lê suas transcrições locais e mostra quais skills você realmente usa.
 
 ## Instalar
-Como plugin (recomendado), a partir de um clone deste repositório:
+Como plugin (recomendado), em um passo (Claude Code 2.1.275 ou mais novo):
 ```
-/plugin marketplace add <caminho-ou-url-deste-repo>
-/plugin install skill-advisor
+/plugin install skill-advisor --marketplace moraesmattheus/skill-advisor
+```
+Ou em dois passos, no terminal:
+```
+claude plugin marketplace add moraesmattheus/skill-advisor
+claude plugin install skill-advisor@skill-advisor
 ```
 Ou como skill avulsa: copie `skills/skill-advisor/` para `~/.claude/skills/` e mantenha o repositório ao lado (a skill procura o `detectar.py` duas pastas acima do `SKILL.md`).
 

@@ -13,10 +13,14 @@ A Claude Code skill that **reads your project and tells you which skills to use,
 - **`uso.py`** reads your local transcripts and shows which skills you really use, so you can decide what is worth the space it takes.
 
 ## Install
-As a plugin (recommended), from a clone of this repo:
+As a plugin (recommended), in one step (Claude Code 2.1.275 or later):
 ```
-/plugin marketplace add <path-or-url-of-this-repo>
-/plugin install skill-advisor
+/plugin install skill-advisor --marketplace moraesmattheus/skill-advisor
+```
+Or in two steps from your shell:
+```
+claude plugin marketplace add moraesmattheus/skill-advisor
+claude plugin install skill-advisor@skill-advisor
 ```
 Or as a standalone skill: copy `skills/skill-advisor/` to `~/.claude/skills/` and keep the repo next to it (the skill looks for `detectar.py` two folders above its `SKILL.md`).
 
