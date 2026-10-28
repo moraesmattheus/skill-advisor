@@ -1,0 +1,8 @@
+{
+  "_aviso": "Fontes conhecidas para instalar skills. O Claude NUNCA instala sozinho: mostra a fonte e espera um 'sim' do usuario.",
+  "expo": {"tipo": "marketplace", "comando": "/plugin install expo@claude-plugins-official", "origem": "marketplace oficial claude-plugins-official"},
+  "marketing-skills": {"tipo": "marketplace", "comando": "/plugin install marketing-skills@marketingskills", "origem": "marketplace marketingskills"},
+  "nextjs-on-cloudflare": {"tipo": "npx", "comando": "npx skills add cloudflare/vinext", "origem": "repositorio cloudflare/vinext"},
+  "supabase": {"tipo": "npx", "comando": "npx skills add supabase/agent-skills", "origem": "repositorio supabase/agent-skills"},
+  "outras": {"tipo": "busca", "comando": "use a skill find-skills para procurar", "origem": "verifique reputacao e rode uma varredura antes de instalar"}
+}

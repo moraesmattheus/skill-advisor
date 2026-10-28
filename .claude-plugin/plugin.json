@@ -1,0 +1,7 @@
+{
+  "name": "skill-advisor",
+  "version": "0.1.0",
+  "description": "Reads your project and suggests the best Claude skills, in your language, saying when each is worth using. Installs nothing without your yes.",
+  "license": "MIT",
+  "keywords": ["skills", "advisor", "tokens", "productivity", "i18n"]
+}
